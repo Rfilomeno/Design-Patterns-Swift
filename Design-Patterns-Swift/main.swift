@@ -12,7 +12,7 @@ calculador.realizaCalculo(orcamento: orcamento, imposto: iss)
 calculador.realizaCalculo(orcamento: orcamento, imposto: icms)*/
 
 // Chain of Responsibility CoR
-var orcamento = Orcamento(valor: 0)
+/*var orcamento = Orcamento(valor: 0)
 var item1 = Item(nome: "caneta", valor: 10)
 var item2 = Item(nome: "xbox", valor: 500)
 var item3 = Item(nome: "lapis", valor: 20)
@@ -29,4 +29,16 @@ orcamento.adicionaItem(item6)
 
 var calculador = CalculadorDeDescontos()
 
-calculador.calcula(orcamento: orcamento)
+calculador.calcula(orcamento: orcamento)*/
+
+//Template Method
+var orcamento = Orcamento(valor: 500)
+var item1 = Item(nome: "caneta", valor: 101)
+orcamento.adicionaItem(item1)
+var ikcv = IKCV()
+var icpp = ICPP()
+
+var calculador = CalculadorDeImpostos()
+
+calculador.realizaCalculo(orcamento: orcamento, imposto: ikcv)
+calculador.realizaCalculo(orcamento: orcamento, imposto: icpp)

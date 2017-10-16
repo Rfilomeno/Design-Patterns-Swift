@@ -14,6 +14,9 @@
 		FD3DB0281F950D6B00D685DF /* DescontoPorMaisDe500Reais.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DB0271F950D6B00D685DF /* DescontoPorMaisDe500Reais.swift */; };
 		FD3DB02A1F950DCA00D685DF /* Desconto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DB0291F950DCA00D685DF /* Desconto.swift */; };
 		FD3DB02C1F950F7F00D685DF /* SemDesconto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DB02B1F950F7F00D685DF /* SemDesconto.swift */; };
+		FD3DB02F1F95195B00D685DF /* ICPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DB02E1F95195B00D685DF /* ICPP.swift */; };
+		FD3DB0311F9519E500D685DF /* IKCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DB0301F9519E500D685DF /* IKCV.swift */; };
+		FD3DB0331F951CF600D685DF /* TemplateDeImpostoCondicional.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DB0321F951CF600D685DF /* TemplateDeImpostoCondicional.swift */; };
 		FD79DA3A1F8E76DE0045AD2E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA391F8E76DE0045AD2E /* main.swift */; };
 		FD79DA441F8E78B20045AD2E /* CalculadorDeImpostos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA431F8E78B20045AD2E /* CalculadorDeImpostos.swift */; };
 		FD79DA461F8E79B60045AD2E /* ICMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA451F8E79B60045AD2E /* ICMS.swift */; };
@@ -41,6 +44,9 @@
 		FD3DB0271F950D6B00D685DF /* DescontoPorMaisDe500Reais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescontoPorMaisDe500Reais.swift; sourceTree = "<group>"; };
 		FD3DB0291F950DCA00D685DF /* Desconto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desconto.swift; sourceTree = "<group>"; };
 		FD3DB02B1F950F7F00D685DF /* SemDesconto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemDesconto.swift; sourceTree = "<group>"; };
+		FD3DB02E1F95195B00D685DF /* ICPP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICPP.swift; sourceTree = "<group>"; };
+		FD3DB0301F9519E500D685DF /* IKCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKCV.swift; sourceTree = "<group>"; };
+		FD3DB0321F951CF600D685DF /* TemplateDeImpostoCondicional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateDeImpostoCondicional.swift; sourceTree = "<group>"; };
 		FD79DA361F8E76DE0045AD2E /* Design-Patterns-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Design-Patterns-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD79DA391F8E76DE0045AD2E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FD79DA431F8E78B20045AD2E /* CalculadorDeImpostos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadorDeImpostos.swift; sourceTree = "<group>"; };
@@ -82,6 +88,16 @@
 			path = "Design-Patterns-Swift/ClassesCommuns";
 			sourceTree = SOURCE_ROOT;
 		};
+		FD3DB02D1F95192000D685DF /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				FD3DB02E1F95195B00D685DF /* ICPP.swift */,
+				FD3DB0301F9519E500D685DF /* IKCV.swift */,
+				FD3DB0321F951CF600D685DF /* TemplateDeImpostoCondicional.swift */,
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
 		FD79DA2D1F8E76DE0045AD2E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +117,7 @@
 		FD79DA381F8E76DE0045AD2E /* Design-Patterns-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				FD3DB02D1F95192000D685DF /* TemplateMethod */,
 				FD3DB01E1F9507E400D685DF /* ClassesCommuns */,
 				FD3DB01D1F9506B300D685DF /* CoR */,
 				FD79DA401F8E77380045AD2E /* Strategy */,
@@ -180,12 +197,15 @@
 			files = (
 				FD3DB0201F950AD800D685DF /* Orcamento.swift in Sources */,
 				FD3DB0261F950CBF00D685DF /* DescontoPorMaisDe5Itens.swift in Sources */,
+				FD3DB0331F951CF600D685DF /* TemplateDeImpostoCondicional.swift in Sources */,
 				FD79DA441F8E78B20045AD2E /* CalculadorDeImpostos.swift in Sources */,
 				FD79DA461F8E79B60045AD2E /* ICMS.swift in Sources */,
 				FD3DB02C1F950F7F00D685DF /* SemDesconto.swift in Sources */,
 				FD3DB0281F950D6B00D685DF /* DescontoPorMaisDe500Reais.swift in Sources */,
+				FD3DB0311F9519E500D685DF /* IKCV.swift in Sources */,
 				FD79DA481F8E7A220045AD2E /* ISS.swift in Sources */,
 				FD3DB0221F950B1000D685DF /* Item.swift in Sources */,
+				FD3DB02F1F95195B00D685DF /* ICPP.swift in Sources */,
 				FD79DA3A1F8E76DE0045AD2E /* main.swift in Sources */,
 				FD79DA4A1F8EA7DE0045AD2E /* Imposto.swift in Sources */,
 				FD3DB0241F950C2800D685DF /* CalculadorDeDesconto.swift in Sources */,
