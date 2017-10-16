@@ -1,9 +1,11 @@
-//
-//  Orcamento.swift
-//  Design-Patterns-Swift
-//
-//  Created by Rodrigo Filomeno on 11/10/17.
-//  Copyright © 2017 Rodrigo Filomeno. All rights reserved.
-//
 
 import Foundation
+
+public class Orcamento{
+    var valor:Double = 0.0
+    
+    init (valor:Double){
+        self.valor = valor
+    }
+    
+}

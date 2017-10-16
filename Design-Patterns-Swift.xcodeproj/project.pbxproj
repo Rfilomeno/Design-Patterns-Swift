@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		FD79DA3A1F8E76DE0045AD2E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA391F8E76DE0045AD2E /* main.swift */; };
+		FD79DA421F8E777C0045AD2E /* Orcamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA411F8E777C0045AD2E /* Orcamento.swift */; };
+		FD79DA441F8E78B20045AD2E /* CalculadorDeImpostos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA431F8E78B20045AD2E /* CalculadorDeImpostos.swift */; };
+		FD79DA461F8E79B60045AD2E /* ICMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA451F8E79B60045AD2E /* ICMS.swift */; };
+		FD79DA481F8E7A220045AD2E /* ISS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA471F8E7A220045AD2E /* ISS.swift */; };
+		FD79DA4A1F8EA7DE0045AD2E /* Imposto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD79DA491F8EA7DE0045AD2E /* Imposto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		FD79DA361F8E76DE0045AD2E /* Design-Patterns-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Design-Patterns-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD79DA391F8E76DE0045AD2E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FD79DA411F8E777C0045AD2E /* Orcamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orcamento.swift; sourceTree = "<group>"; };
+		FD79DA431F8E78B20045AD2E /* CalculadorDeImpostos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadorDeImpostos.swift; sourceTree = "<group>"; };
+		FD79DA451F8E79B60045AD2E /* ICMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICMS.swift; sourceTree = "<group>"; };
+		FD79DA471F8E7A220045AD2E /* ISS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISS.swift; sourceTree = "<group>"; };
+		FD79DA491F8EA7DE0045AD2E /* Imposto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imposto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,22 @@
 		FD79DA381F8E76DE0045AD2E /* Design-Patterns-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				FD79DA401F8E77380045AD2E /* Strategy */,
 				FD79DA391F8E76DE0045AD2E /* main.swift */,
 			);
 			path = "Design-Patterns-Swift";
+			sourceTree = "<group>";
+		};
+		FD79DA401F8E77380045AD2E /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				FD79DA411F8E777C0045AD2E /* Orcamento.swift */,
+				FD79DA431F8E78B20045AD2E /* CalculadorDeImpostos.swift */,
+				FD79DA451F8E79B60045AD2E /* ICMS.swift */,
+				FD79DA471F8E7A220045AD2E /* ISS.swift */,
+				FD79DA491F8EA7DE0045AD2E /* Imposto.swift */,
+			);
+			path = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD79DA441F8E78B20045AD2E /* CalculadorDeImpostos.swift in Sources */,
+				FD79DA461F8E79B60045AD2E /* ICMS.swift in Sources */,
+				FD79DA421F8E777C0045AD2E /* Orcamento.swift in Sources */,
+				FD79DA481F8E7A220045AD2E /* ISS.swift in Sources */,
 				FD79DA3A1F8E76DE0045AD2E /* main.swift in Sources */,
+				FD79DA4A1F8EA7DE0045AD2E /* Imposto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
